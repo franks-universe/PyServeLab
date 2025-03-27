@@ -6,6 +6,8 @@ PyServeLab is a simple web server GUI written in Python which allows you to quic
 PyServeLab requires PyQt5 and Flask to be installed, you can install these with:
 `pip install PyQt5 flask`
 
+Due to being a GUI app, PyServLab reqires a a desktop environment, it will not run on a cli-only system.
+
 ## Usage
 
 PyServeLab is GUI based, please run `PyServeLab.py` and set the following options:
