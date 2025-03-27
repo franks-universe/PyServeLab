@@ -1,12 +1,13 @@
 # PyServeLab - simple GUI based local web server
-# 
+# Author: Frank Pedersen
+# https://github.com/franks-universe/PyServeLab
 #
 
 import sys
 import os
 import multiprocessing
 from flask import Flask, send_from_directory
-from PyQt5.QtWidgets import (
+from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QFileDialog, QVBoxLayout, QWidget, 
     QPushButton, QLabel, QLineEdit, QHBoxLayout, QMessageBox
 )
@@ -131,4 +132,4 @@ if __name__ == "__main__":
     qt_app = QApplication(sys.argv)
     main_window = WebServerGUI()
     main_window.show()
-    sys.exit(qt_app.exec_())
+    sys.exit(qt_app.exec())
